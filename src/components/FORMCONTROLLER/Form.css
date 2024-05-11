@@ -1,0 +1,60 @@
+.fullForm {
+  margin: 10px 310px;
+  border-top: 1px solid blue;
+  border-bottom: 1px solid blue;
+}
+form {
+  padding: 10px;
+  display: flex;
+  gap: 10px;
+}
+input {
+  padding: 10px;
+  width: 140px;
+  font-size: 16px;
+  border: 1px solid gray;
+}
+.inputWithIcon {
+  position: relative;
+}
+
+.inputWithIcon input[type="text"] {
+  padding-right: 30px; /* Adjust the padding to accommodate the icon */
+}
+
+.inputWithIcon i {
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  cursor: pointer;
+  font-size: 20px;
+  color: gray;
+}
+.inputAnytime {
+  width: 150px;
+}
+.inputWithIconAnytime {
+  position: relative;
+}
+.inputWithIconAnytime i {
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  cursor: pointer;
+  font-size: 20px;
+  color: gray;
+}
+
+label {
+  font-size: 25px;
+  font-weight: bolder;
+}
+.table {
+  margin: 10px 310px;
+}
+.button {
+  background-color: #312e81;
+  color: white;
+}

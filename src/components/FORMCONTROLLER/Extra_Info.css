@@ -1,0 +1,12 @@
+.extraInformation {
+  margin: 0 300px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 1px solid #312e81;
+  padding: 0 0 10px 0;
+}
+.button {
+  background-color: #312e81;
+  color: white;
+}
